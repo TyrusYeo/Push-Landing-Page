@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #FFFFFF;
-  margin:0;
+  margin: 0;
+  padding:0;
 }
 a {
   color: #ad24d6;
@@ -32,6 +32,14 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+        
+#gradient-canvas {
+  --gradient-color-1: #6ec3f4;
+  --gradient-color-2: #3a3aff;
+  --gradient-color-3: #ff61ab;
+  --gradient-color-4: #E63946;
+}
+      
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -421,10 +429,6 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
-}
-
-.section-bg {
-  background-color: #f7fbfe;
 }
 
 .section-title {

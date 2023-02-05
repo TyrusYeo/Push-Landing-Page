@@ -1,9 +1,3 @@
-/**
-* Template Name: Vesperr - v4.10.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -176,12 +170,4 @@
    */
   new PureCounter();
 
-  const $bg = document.querySelector(".tracking-background");
-  const mouseScale = 0.25;
-  $bg.addEventListener("mousemove", e => {
-	const x = e.offsetX / $bg.clientWidth * 100 - 50;
-  const y = e.offsetY / $bg.clientHeight * 100 - 50;
-	$bg.style.setProperty("--mouseX", `${(x * mouseScale).toFixed(3)}%`);
-  $bg.style.setProperty("--mouseY", `${(y * mouseScale).toFixed(3)}%`);
-});
 })()
