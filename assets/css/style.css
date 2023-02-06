@@ -149,7 +149,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #000000;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -165,7 +165,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #3498db;
+  color: #FFFFFF;
 }
 
 .navbar .dropdown ul {
@@ -199,7 +199,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #3498db;
+  color: #FFFFFF;
 }
 
 .navbar .dropdown:hover>ul {
@@ -343,8 +343,8 @@ h6 {
   width: 100%;
   height: 70vh;
   margin-top: 70px;
+  
 }
-
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
