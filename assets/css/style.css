@@ -528,7 +528,9 @@ section {
   font-size: 14px;
 }
 
-.contact .php-email-form .error-message {
+/* Not using PHP so we need to remove .php-email-form */
+
+/* .contact .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -539,9 +541,9 @@ section {
 
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
-}
+} */
 
-.contact .php-email-form .sent-message {
+.contact .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -550,14 +552,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -570,7 +572,7 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form .form-group {
+.contact .form-group {
   margin-bottom: 20px;
 }
 
@@ -587,7 +589,7 @@ section {
   border-color: #3498db;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact button[type=submit] {
   background: #3498db;
   border: 0;
   padding: 10px 24px;
@@ -596,7 +598,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact button[type=submit]:hover {
   background: #2383c4;
 }
 
